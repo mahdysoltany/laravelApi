@@ -16,10 +16,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('price');
-            $table->string('Number');
+            $table->string('count');
             $table->string('description');
             $table->string('Discount_date');
-            $table->string('position');
             $table->string('Weight');
             $table->string('deliveryTime');
             $table->unsignedBigInteger('category_id');
